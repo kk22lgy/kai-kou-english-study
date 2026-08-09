@@ -1,0 +1,10 @@
+{
+  "name": "开口英语",
+  "short_name": "开口英语",
+  "description": "每天 12 分钟，把英语真正说出来。",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#173b34",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
