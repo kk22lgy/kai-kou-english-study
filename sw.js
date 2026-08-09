@@ -1,4 +1,4 @@
-const CACHE = "kai-kou-v2";
+const CACHE = "kai-kou-v3";
 const BASE = new URL("./", self.registration.scope).pathname;
 const CORE = [BASE, `${BASE}manifest.webmanifest`, `${BASE}favicon.svg`];
 self.addEventListener("install", (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(CORE))));
